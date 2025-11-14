@@ -29,17 +29,12 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Trinity20",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/nana-sofia/",
   },
   {
     name: "Email",
@@ -70,7 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Sou a Ana Sofia, estudante de design multimendia no 
+      Sou a Ana Sofia, estudante de comunicação multimédia no 
       <br/>Instituto Politécnico da Guarda. {" "}
       <Logo
         dark
@@ -103,33 +98,42 @@ const about: About = {
     title: "Introdução",
     description: (
       <>
-        Estudante de Design e Multimédia no IPG, Ana Sofia é movida pela 
-        arte e pelo ritmo da música. Especializada em interfaces e 
-        experiências digitais intuitivas, transforma ideias em soluções visuais elegantes.
+        Ana Sofia, estudante de Comunicação Multimédia no Ipg, é 
+        movida pela arte, tem especial interesse em experiencias 
+        digitais intuitivas e transforma ideias em projetos digitais.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Experiência Profissional",
+    title: "Experiência Académica",
     experiences: [
       {
         //  
-        company: "AINDA NÂO SEI",
-        timeframe: "2025 - Presente",
-        role: "Estagiaria",
+        company: "Ensino secundário na área de ciências e tecnologias",
+        timeframe: "Set.20 - Junho.23",
+        role: "Escola básica e secundária de Macedo de Cavaleiros",
+        achievements: [
+    
+        ]
+      },
+            {
+        //  
+        company: "Licenciatura em Comunicação Multimédia",
+        timeframe: "Set.23 - Presente",
+        role: "Instituto Politécnico da Guarda",
         achievements: [
           <>
-            Realizei um estágio onde desenvolvi e aprofundei as minhas 
-            competências técnicas e profissionais, aplicando conhecimentos 
-            adquiridos em contexto real de trabalho.
+           Desenvolvi competências nas áreas de Design Gráfico, Desenvolvimento Web,
+            Captura, Edição e pós-produção de fotografia/video, animação 2D e 3D 
+            e escrita criativa.
           </>,
         ]
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Estudos",
     institutions: [
       {
@@ -155,9 +159,13 @@ const about: About = {
     title: "Competências técnicas",
     skills: [
       {
-        title: "Programação Web (HTML, CSS, JavaScript)",
+        title: "Fundamentos de:",
         description: (
-          <>Capaz de desenvolver interfaces web funcionais e responsivas, aplicando boas práticas de estrutura, estilo e interatividade.</>
+          <>Web Design: Html, CSS. <br />
+Animação: Adobe animate. <br />
+Captura e edição de video: DaVinci Resolve. <br />
+Captura e edição de audio: Audacity, Adobe Audition. <br />
+Captura e edição de imagem: Adobe Photoshoop.</> 
         ),
         tags: [
           {
@@ -181,18 +189,21 @@ const about: About = {
           },
         ],*/
       },
+
       {
-        title: "Edição de vídeo e imagem",
+        title: "Design Gráfico:",
         description: (
-          <>Experiente na criação e otimização de conteúdos visuais, com atenção ao detalhe, ritmo e coerência estética.</>
+          <>Procreate <br />
+Canva <br />
+Criação de manuais de identidade e de identidade visual</>
         ),
         tags: [],
         images: [],
       },
       {
-        title: "Design de interfaces e experiência do utilizador (UI/UX)",
+        title: "",
         description: (
-          <>Competente na conceção de interfaces intuitivas e agradáveis, centradas na usabilidade e na experiência do utilizador.</>
+          <></>
         ),
         tags: [],
         images: [],
